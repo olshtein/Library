@@ -1,6 +1,8 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2012
+# Visual Studio 2013
+VisualStudioVersion = 12.0.21005.1
+MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "LibraryBE", "LibraryBE\LibraryBE.vcxproj", "{4F917D4D-F498-445E-B7A3-3D3C082B4C13}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "LibraryDAL", "LibraryDAL\LibraryDAL.vcxproj", "{5CF1E88C-FFD6-4C20-A610-3FDA35A89FF1}"
@@ -8,6 +10,9 @@ EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "LibraryBL", "LibraryBL\LibraryBL.vcxproj", "{0E4EC7EA-6F42-4475-A769-07A040F638B9}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "LibraryUI", "LibraryUI\LibraryUI.vcxproj", "{E42E6692-2C3A-4721-B0CF-BD56CEAD971D}"
+	ProjectSection(ProjectDependencies) = postProject
+		{4F917D4D-F498-445E-B7A3-3D3C082B4C13} = {4F917D4D-F498-445E-B7A3-3D3C082B4C13}
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
